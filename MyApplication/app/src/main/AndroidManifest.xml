@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pictionary"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".czat"></activity>
+
+
+        <meta-data
+            android:name="cvio.api_key_id"
+            android:value="44c6d6f60adb43802a6ba090e1fbfe28f3e7c7c53c081f64450d1a78b6c49545" />
+
+        <activity android:name=".joinbut" />
+        <activity
+            android:name=".room"
+            android:label="@string/title_activity_room"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+
+        <activity android:name=".online" />
+        <activity android:name=".about" />
+        <activity android:name=".freerun" />
+        <activity android:name=".Howtoplay" />
+
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
